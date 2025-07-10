@@ -1,0 +1,11 @@
+{
+  "id": "lore-research",
+  "name": "Lore Research",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Integrate AI-powered research from the Lore engine directly into your Obsidian vault. Conduct autonomous research and generate connected notes in Zettelkasten format.",
+  "author": "Chris",
+  "authorUrl": "https://github.com/chreez/lore-obsidian",
+  "fundingUrl": "https://github.com/sponsors/chreez",
+  "isDesktopOnly": false
+}

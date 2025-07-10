@@ -1,0 +1,47 @@
+{
+  "name": "lore-obsidian",
+  "version": "0.1.0",
+  "description": "Obsidian plugin for Lore research engine integration",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "jest",
+    "install-vault": "node scripts/install-to-vault.js",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write src"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin", 
+    "lore",
+    "research",
+    "ai",
+    "knowledge-management"
+  ],
+  "author": "Chris",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "0.19.8",
+    "eslint": "^8.55.0",
+    "jest": "^29.7.0",
+    "obsidian": "latest",
+    "prettier": "^3.1.0",
+    "tslib": "2.6.2",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "obsidian": "latest"
+  },
+  "peerDependencies": {
+    "@lore/api-types": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chreez/lore-obsidian.git"
+  }
+}
